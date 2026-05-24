@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+ul#navigationList {
+	background-color: rgb(225, 225, 128);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
