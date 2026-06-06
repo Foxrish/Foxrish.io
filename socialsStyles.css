@@ -79,22 +79,6 @@ article a:hover {
 	text-decoration: underline;
 }
 
-div#WhyFoxes, div#VideoMaking {
-	padding-bottom: 3em;
-	padding-top: 1em;
-	display: flex;
-}
-
-div#WordsOfWisdom {
-	padding-top: 1em;
-	display: flex;
-}
-
-div img {
-	float: left;
-	padding-right: 1em;
-}
-
 /* Footer styles */
 
 footer {

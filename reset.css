@@ -22,17 +22,22 @@ table, tr, td, th, col, colgroup {
 
 body {
    line-height: 1.2em;
+   text-decoration: none;
 }
 
 ul, ol {
    list-style: none;
+   text-decoration: none;
 }
 
 nav ul {
    list-style: none;
    list-style-image: none;
+   text-decoration: none;
 }
 
 a {
+   color: inherit;
+   font-size: inherit;
    text-decoration: none;
 }
