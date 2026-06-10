@@ -6,6 +6,7 @@
     <link rel="icon" type="image/x-icon" href="FoxrishFavicon.png">
     <link href="reset.css" rel="stylesheet" />
     <link href="foxrishtwowStyles.css" rel="stylesheet" />
+    <script src="searchContestants.js"></script>
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
     </style>
@@ -20,11 +21,141 @@
           <li><a href="foxrishtwow.html">FoxrishTWOW</a></li>
           <li><a href="socials.html">Socials</a></li>
         </ul>
+        <ul id="foxrishSubList">
+          <li><a href="foxrishtwow.html">Overview</a></li>
+          <li><a href="foxrishtwowstatistics.html">Statistics</a></li>
+        </ul>
       </nav>
     </header>
     <article>
       <h1 id="Title">FoxrishTWOW</h1>
-      <p id="preamble">Unfortunately, this page is still under construction! I hope this doesn't inconvenience you too much...</p>
+      <p id="preamble">FoxrishTWOW is a miniTWOW (<a href="home.html#VulpineWisdom">Click here</a> if you don't know what that is) I have been hosting since January 2026! As of
+      now, the miniTWOW is currently in its fifthteenth round with the final three contestants: <b>ConvexProjects</b>, <b>MarioFan</b>, and <b>mazuat</b>.
+      <br><br>
+      Below you can find a searchable contestant list and explanations of how FoxrishTWOW works, but you can find much more information in the <a href="https://discord.gg/PXDxws7yug">FoxrishTWOW Discord Server</a> and the <a href="foxrishtwowstatistics.html">statistics page</a>! Do know that this page assumes you already know all the basics of how a twow works.</p>
+      <div id="mainPage">
+        <div id="explanations">
+          <div id="twowMechanics">
+            <h2>Mechanics</h2>
+            <br>
+            <p>FoxrishTWOW uses a heart system where everyone starts off with 2 fully functioning hearts. The outcome of placing in each of the zones (top 10%, bottom 33%, and bottom 10%) depends on how many / the type of hearts someone has:</p>
+            <table>
+              <tr>
+                <th></th>
+                <th id="head">If you have two real hearts and no dead hearts</th>
+                <th id="head">If you have one real heart and one dead heart</th>
+                <th id="head">If you have one real heart and one artificial heart</th>
+              </tr>
+              <tr>
+                <td id="side">Top 20%</td>
+                <td>Earn a double response prize</td>
+                <td>Dead heart -> artificial heart</td>
+                <td>Earn a double response prize</td>
+              <tr>
+              <tr>
+                <td id="side">Bottom 33%</td>
+                <td>One of your real hearts -> dead heart</td>
+                <td>You're eliminated</td>
+                <td>You're eliminated</td>
+              <tr>
+              <tr>
+                <td id="side">Bottom 10%</td>
+                <td>You forever lose one of your hearts</td>
+                <td>You're eliminated</td>
+                <td>You're eliminated</td>
+              <tr>
+            </table>
+            <br>
+            <p>On top of the lives system, FoxrishTWOW also has a couple other differences between a standard miniTWOW, including:</p>
+            <ul id="featureList">
+              <li><span id="ListHeading">Extended Limits</span> The word limit is 11 words, allowing the contestants to use slightly more complicated ideas.</li>
+              <li><span id="ListHeading">Snowball Prizing</span> If a contestant places both of their responses in the prize region, they get three responses the next round.</li>
+              <li><span id="ListHeading">Contestant-voted Prompts</span> The prompts are voted on / suggested by the contestants, rather than the host.</li>
+            </ul>
+          </div>
+        </div>
+        <div id="searchContestants">
+          <input type=text id="searchBar" placeholder="Search for a contestant here!" oninput="searchContestant()">
+          <ul id="contestantList">
+            <li><img src="https://files.catbox.moe/illvdx.png"> 4.5</li>
+            <li><img src="https://files.catbox.moe/on0v97.png"> 044r</li>
+            <li><img src="https://files.catbox.moe/kb3xvg.png"> 11Valerie</li>
+            <li><img src="https://files.catbox.moe/b3r6kv.png"> 2k2x</li>
+            <li><img src="https://files.catbox.moe/c3d91j.png"> 4dice</li>
+            <li><img src="https://files.catbox.moe/mdsf12.png"> A Random Contestant</li>
+            <li><img src="https://files.catbox.moe/w981l6.png"> A_uman</li>
+            <li><img src="https://files.catbox.moe/mma4lk.png"> algo</li>
+            <li><img src="https://files.catbox.moe/6yfyv0.png"> alias.exitor</li>
+            <li><img src="https://files.catbox.moe/l3jn2q.png"> Ameliorator</li>
+            <li><img src="https://files.catbox.moe/qjbh11.png"> Azim9999</li>
+            <li><img src="https://files.catbox.moe/ktmq6s.png"> bismuth28</li>
+            <li><img src="https://files.catbox.moe/6r4fiy.png"> Blue Gelatin</li>
+            <li><img src="https://files.catbox.moe/rpco2w.png"> Bluebuster</li>
+            <li><img src="https://files.catbox.moe/6p7on3.png"> Bryan</li>
+            <li><img src="https://files.catbox.moe/v8bq9l.png"> Bubble Trumps</li>
+            <li><img src="https://files.catbox.moe/8nfea9.png"> butterfly_mono</li>
+            <li><img src="https://files.catbox.moe/9i2b68.png"> CASTORCORE</li>
+            <li><img src="https://files.catbox.moe/0l8xo6.png"> Cereseries</li>
+            <li><img src="https://files.catbox.moe/5bv60a.png"> Chad</li>
+            <li><img src="https://files.catbox.moe/bvp2n6.png"> cKoruss</li>
+            <li><img src="https://files.catbox.moe/8lr9z8.png"> ConvexProjects</li>
+            <li><img src="https://files.catbox.moe/we0lbz.png"> Coolberry</li>
+            <li><img src="https://files.catbox.moe/a8nrz9.png"> CoolPizzaBro</li>
+            <li><img src="https://files.catbox.moe/47iuf7.png"> Cozies</li>
+            <li><img src="https://files.catbox.moe/6cpalu.png"> Edu</li>
+            <li><img src="https://files.catbox.moe/7gwhly.png"> EeveeLuv</li>
+            <li><img src="https://files.catbox.moe/5es4d5.png"> fickledickledoo</li>
+            <li><img src="https://files.catbox.moe/nesf3f.png"> FluffyDonut</li>
+            <li><img src="https://files.catbox.moe/pz9tt3.png"> Funo'</li>
+            <li><img src="https://files.catbox.moe/r8h1zb.png"> girlkisser47</li>
+            <li><img src="https://files.catbox.moe/hj9nk0.png"> GoldBlocks</li>
+            <li><img src="https://files.catbox.moe/yghlmw.png"> GroundPound</li>
+            <li><img src="https://files.catbox.moe/g249im.png"> H2Ocean</li>
+            <li><img src="https://files.catbox.moe/kdzf13.png"> Jac4</li>
+            <li><img src="https://files.catbox.moe/grvfdv.png"> Kinder</li>
+            <li><img src="https://files.catbox.moe/qw0gva.png"> KuroCat</li>
+            <li><img src="https://files.catbox.moe/9vq0wv.png"> lime</li>
+            <li><img src="https://files.catbox.moe/ylzcvk.png"> LimeStick</li>
+            <li><img src="https://files.catbox.moe/vfks9b.png"> Mack R-S</li>
+            <li><img src="https://files.catbox.moe/fnwvj7.png"> MarioFan</li>
+            <li><img src="https://files.catbox.moe/cgqbtk.png"> mazuat</li>
+            <li><img src="https://files.catbox.moe/7y6jp2.png"> Mylocity</li>
+            <li><img src="https://files.catbox.moe/ruwz3s.png"> NeoGio</li>
+            <li><img src="https://files.catbox.moe/8t6kb5.png"> Neonth</li>
+            <li><img src="https://files.catbox.moe/fq0vsw.png"> Nindragon471</li>
+            <li><img src="https://files.catbox.moe/upjem7.png"> notarock</li>
+            <li><img src="https://files.catbox.moe/6z8e6g.png"> NotLime</li>
+            <li><img src="https://files.catbox.moe/uthskp.png"> Octaman</li>
+            <li><img src="https://files.catbox.moe/d3h991.png"> Oleky</li>
+            <li><img src="https://files.catbox.moe/0frh10.png"> pink man</li>
+            <li><img src="https://files.catbox.moe/3sv9sz.png"> PsychicTypes710</li>
+            <li><img src="https://files.catbox.moe/q4daem.png"> Purply</li>
+            <li><img src="https://files.catbox.moe/l2iu51.png"> Raziki</li>
+            <li><img src="https://files.catbox.moe/a4km3t.png"> rnima</li>
+            <li><img src="https://files.catbox.moe/6tln96.png"> Sable</li>
+            <li><img src="https://files.catbox.moe/byr37z.png"> Sadayu</li>
+            <li><img src="https://files.catbox.moe/rus0gi.png"> sanjay2133</li>
+            <li><img src="https://files.catbox.moe/nctrcc.png"> sbeve</li>
+            <li><img src="https://files.catbox.moe/21762f.png"> SpongeBobEDA</li>
+            <li><img src="https://files.catbox.moe/119dgy.png"> springymint</li>
+            <li><img src="https://files.catbox.moe/jadbn4.png"> superbaconbro</li>
+            <li><img src="https://files.catbox.moe/t7k6fa.png"> Swa</li>
+            <li><img src="https://files.catbox.moe/ddqn68.png"> Switz</li>
+            <li><img src="https://files.catbox.moe/2owcka.png"> tbb2</li>
+            <li><img src="https://files.catbox.moe/auw0ce.png"> TheJacoboIdioter2</li>
+            <li><img src="https://files.catbox.moe/r0tuhr.png"> ThePinkBunnyEmpire</li>
+            <li><img src="https://files.catbox.moe/a9qvoy.jpg"> this... username?</li>
+            <li><img src="https://files.catbox.moe/owprw1.png"> Tri-Blast</li>
+            <li><img src="https://files.catbox.moe/22oeo1.png"> Varth_</li>
+            <li><img src="https://files.catbox.moe/ivzrf1.png"> Villagerslime</li>
+            <li><img src="https://files.catbox.moe/wd3y16.png"> Visurient</li>
+            <li><img src="https://files.catbox.moe/twm47n.png"> Yoshipipe</li>
+          </ul>
+        </div>
+      </div>
     </article>
+    <footer>
+      <p>Copyright © 2025 - 2026 Foxrish.io</p>
+    </footer>
   </body>
 </html>
